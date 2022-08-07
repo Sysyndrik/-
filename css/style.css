@@ -3,9 +3,6 @@ body {
 }
 
 .navbar {
-  max-width: 870px;
-  width: 100%;
-  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,5 +24,159 @@ body {
 }
 
 .nav-link.active {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 870px;
+  width: 100%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.header-text {
+  margin-left: 27px;
+}
+
+.header-strong {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+.hedaer-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.header-primery {
+  color: #bf7506;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.social-item {
+  padding: 8px;
+  display: inline-block;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+.cv-download {
+  display: flex;
+  margin-left: 55px;
+  padding: 7px 8px;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+  border-bottom: 2px solid #bf7506;
+}
+
+.cv-icon {
+  margin-right: 4px;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #bf7506;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card-text-wrapper {
+  padding: 16px;
+}
+
+.card {
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  margin-top: 0;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+  color: #bf7506;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+}
+
+.tages {
+  list-style-type: none;
+  align-items: center;
+  padding: 0;
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.tag {
+  text-decoration: none;
+  padding: 4px 8px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #211b12;
+  background: #ffffff;
+  border: 1px solid #dd9c3c;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+.card-buttoms {
+  display: flex;
+  align-items: center;
+}
+
+.card-button {
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  padding: 7px 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #211b12;
+  border-bottom: 2px solid #BF7506;
+}
+
+.card-button-icon {
+  margin-right: 4px;
 }
